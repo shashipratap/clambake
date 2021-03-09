@@ -14,7 +14,7 @@ import errno
 
 class Scanner():
     def __init__(self):
-        """Initialize the Scanner."""
+        """Initialize  the Scanner."""
 
         clam_version = subprocess.check_output(['clamscan',
             '--version'])
